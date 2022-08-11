@@ -1,0 +1,145 @@
+:root {
+  --color-primary: #04C3F0;
+  --color-text-black:#111515;
+  --color-text-white:#FFFFFF;
+  --color-gray:#A0A1A1;
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  padding: 16px 32px;
+  border-radius: 50px;
+}
+
+.btn-primary a {
+  color: var(--color-text-white);
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  max-width: 117.6rem;
+}
+
+header {
+  border-bottom: 1px solid var(--color-gray);
+}
+
+header .container {
+  height: 8.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .logo img {
+  width: 150px;
+  height: 20px;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav ul li {
+  margin-left: 3.7rem;
+}
+
+header nav ul li a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 15px;
+  color: var(--color-gray);
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+header nav ul li a:hover {
+  color: var(--color-primary);
+}
+
+.s-hero {
+  padding-top: 13.7rem;
+}
+
+.s-hero .text h1 {
+  font-family: 'Satoshi', sans-serif;
+  font-size: 5.7rem;
+  width: 100%;
+  font-weight: 800;
+  max-width: 92.6rem;
+  height: 7.2rem;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+
+.s-hero .text h1 span {
+  color: var(--color-primary);
+}
+
+.s-hero .text p {
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 100%;
+  max-width: 74.1rem;
+  font-size: 20px;
+  margin: 0 auto;
+  text-align: center;
+  color: #adb5bd;
+  line-height: 170%;
+}
+
+.s-hero .btns {
+  text-align: center;
+  margin-top: 6.8rem;
+}
+/*# sourceMappingURL=main.css.map */

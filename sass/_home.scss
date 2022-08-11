@@ -1,0 +1,34 @@
+.s-hero{
+    padding-top: 13.7rem;
+    .text{
+        h1{
+            font-family: 'Satoshi', sans-serif;
+            font-size: 5.7rem;
+            width: 100%;
+            font-weight: 800;
+            max-width: 92.6rem;
+            height: 7.2rem;
+            text-align: center;
+            margin:  0 auto;
+            margin-bottom: 24px;
+            span{
+                color: var(--color-primary);
+            }
+        }
+        p{
+            font-family: 'Source Sans Pro', sans-serif;
+            width: 100%;
+            max-width: 74.1rem;
+            font-size: 20px;
+            margin: 0 auto;
+            text-align: center;
+            color: #adb5bd;
+            line-height: 170%;
+        }
+    }
+
+    .btns{
+       text-align: center;
+       margin-top: 6.8rem;
+    }
+}

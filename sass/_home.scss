@@ -1,5 +1,6 @@
 .s-hero{
     padding-top: 13.7rem;
+    padding-bottom: 22.4rem;
     .text{
         h1{
             font-family: 'Satoshi', sans-serif;
@@ -28,7 +29,70 @@
     }
 
     .btns{
-       text-align: center;
-       margin-top: 6.8rem;
+        display: flex;
+        justify-content: center;
+         margin-top: 4.8rem;
+         margin-bottom: 11.2rem;
+    }
+}
+
+.s-depoimentos{
+    background: rgba(243, 243, 241, 0.4);
+    padding-top: 8rem;
+    padding-bottom: 22.4rem;
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .left-area{
+        width: 100%;
+        max-width: 26.8rem;
+        h3{
+            color: var(--color-primary);
+            font-size: 2.4rem;
+            margin-bottom: 6.4rem;
+            font-family: 'Satoshi', sans-serif;
+            font-weight: 800;
+        }
+        h1{
+            font-size: 3rem;
+            width: 54.2rem;
+            margin-bottom: 2rem
+        }
+
+        p{
+            font-size: 2rem;
+            width: 55.2rem;
+            color: var(--color-gray);
+            line-height: 160%;
+
+        }
+    }
+
+    .right-area{
+        background: #FFFFFF;
+        box-shadow: 0px 4px 10px rgba(203, 203, 203, 0.08);
+        border-radius: 8px;
+        width: 100%;
+        max-width: 42.6rem;
+        img{
+            margin-bottom: 2.4rem;
+        }
+        p{
+            font-size: 1.6rem;
+            color: var(--color-gray);
+            margin-bottom: 2.4rem;
+            line-height: 160%;
+        }
+        .depoimento{
+            display: flex;
+            align-items: center;
+            p{
+                font-size: 20px;
+                color: var(--color-primary);
+                font-weight: bold;
+                margin-left: 10px;
+            }
+        }
     }
 }

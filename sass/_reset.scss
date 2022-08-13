@@ -23,10 +23,20 @@ html{
 
 body{
     font-family: 'Montserrat', sans-serif;
+    background-color: #07090E;
 }
 
 
 a{
     text-decoration: none;
     display: inline-block;
+}
+
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+h3{
+    font-family: 'Satoshi', sans-serif;
 }

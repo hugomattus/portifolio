@@ -1,6 +1,6 @@
 :root {
   --color-primary: #04C3F0;
-  --color-text-black:#111515;
+  --color-text-black:#FFFFFF;
   --color-text-white:#FFFFFF;
   --color-gray:#A0A1A1;
 }
@@ -31,11 +31,21 @@ html {
 
 body {
   font-family: 'Montserrat', sans-serif;
+  background-color: #07090E;
 }
 
 a {
   text-decoration: none;
   display: inline-block;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+h3 {
+  font-family: 'Satoshi', sans-serif;
 }
 
 .container {
@@ -53,7 +63,7 @@ a {
 }
 
 .btn-primary a {
-  color: var(--color-text-white);
+  color: #07090E;
   font-family: 'Inter', sans-serif;
   font-weight: bold;
   font-size: 18px;
@@ -154,6 +164,7 @@ header nav ul li a:hover {
   text-align: center;
   margin: 0 auto;
   margin-bottom: 24px;
+  color: var(--color-text-black);
 }
 
 .s-hero .text h1 span {
@@ -164,10 +175,10 @@ header nav ul li a:hover {
   font-family: 'Source Sans Pro', sans-serif;
   width: 100%;
   max-width: 74.1rem;
-  font-size: 20px;
+  font-size: 22px;
   margin: 0 auto;
   text-align: center;
-  color: #adb5bd;
+  color: var(--color-gray);
   line-height: 170%;
 }
 
@@ -183,8 +194,8 @@ header nav ul li a:hover {
 }
 
 .s-depoimentos {
-  background: rgba(243, 243, 241, 0.4);
-  padding-top: 8rem;
+  background-color: rgba(19, 25, 37, 0.5);
+  padding-top: 14.4rem;
   padding-bottom: 22.4rem;
 }
 
@@ -214,29 +225,29 @@ header nav ul li a:hover {
   font-size: 3rem;
   width: 54.2rem;
   margin-bottom: 2rem;
+  color: var(--color-text-black);
 }
 
 .s-depoimentos .left-area p {
-  font-size: 2rem;
+  font-size: 23px;
   width: 55.2rem;
-  color: var(--color-gray);
+  color: rgba(255, 255, 255, 0.4);
   line-height: 160%;
 }
 
 .s-depoimentos .right-area {
-  background: #FFFFFF;
-  -webkit-box-shadow: 0px 4px 10px rgba(203, 203, 203, 0.08);
-          box-shadow: 0px 4px 10px rgba(203, 203, 203, 0.08);
+  padding: 40px 40px;
+  background-color: #1A2232;
   border-radius: 8px;
   width: 100%;
   max-width: 42.6rem;
 }
 
-.s-depoimentos .right-area img {
+.s-depoimentos .right-area .img-quots {
   margin-bottom: 2.4rem;
 }
 
-.s-depoimentos .right-area p {
+.s-depoimentos .right-area .depoimento-text {
   font-size: 1.6rem;
   color: var(--color-gray);
   margin-bottom: 2.4rem;
@@ -256,6 +267,185 @@ header nav ul li a:hover {
   font-size: 20px;
   color: var(--color-primary);
   font-weight: bold;
-  margin-left: 10px;
+  margin-left: 20px;
+}
+
+.s-projetos {
+  padding-top: 14.4rem;
+}
+
+.s-projetos .text {
+  margin-bottom: 6.2rem;
+}
+
+.s-projetos .text h3 {
+  font-size: 2.4rem;
+  color: var(--color-primary);
+  margin-bottom: 6.4rem;
+}
+
+.s-projetos .text h1 {
+  font-size: 3rem;
+  color: var(--color-text-white);
+  line-height: 140%;
+}
+
+.s-projetos .text h1 span {
+  color: var(--color-primary);
+}
+
+.s-projetos .projetos {
+  padding-bottom: 7.2rem;
+}
+
+.s-projetos .projetos ul {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+}
+
+.s-projetos .projetos ul li .card-projects {
+  width: 100%;
+  max-width: 54.4rem;
+  height: 40.8rem;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.s-projetos .projetos ul li .card-projects img {
+  border-radius: 8px;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.s-projetos .projetos ul li .card-projects img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.s-projetos .text-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: var(--color-primary);
+  font-size: 1.8rem;
+  padding-bottom: 14rem;
+}
+
+.s-projetos .text-center::after {
+  border-right: 0.1em solid var(--color-primary);
+  border-bottom: 0.1em solid var(--color-primary);
+  content: "";
+  display: inline;
+  height: 6px;
+  margin: 0;
+  width: 6px;
+  margin-left: 6.6px;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.s-skills {
+  padding-top: 14.4rem;
+}
+
+.s-skills .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.s-skills h3 {
+  font-size: 2.4rem;
+  color: var(--color-primary);
+  margin-bottom: 5rem;
+}
+
+.s-skills .text h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: var(--color-text-black);
+}
+
+.s-skills .accordion {
+  width: 100%;
+  max-width: 50.4rem;
+  margin: 0 15px;
+  padding: 15px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+.s-skills .accordion .accordion-content {
+  border-radius: 4px;
+  background-color: var(--color-primary);
+  border: 1px solid #07090E;
+  color: var(--color-text-white);
+  font-size: 1.4rem;
+  overflow: hidden;
+}
+
+.s-skills .accordion .accordion-content.open {
+  padding-bottom: 10px;
+}
+
+.s-skills .accordion .accordion-content header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 50px;
+  padding: 0 15px;
+  cursor: pointer;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.s-skills .accordion .accordion-content header.open {
+  min-height: 35px;
+}
+
+.s-skills .accordion .accordion-content header .title {
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: #07090E;
+}
+
+.s-skills .accordion .accordion-content header i {
+  font-size: 1.7rem;
+  color: #07090E;
+}
+
+.s-skills .accordion .accordion-content .description {
+  padding: 0 15px;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #07090E;
+  height: 0;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
 /*# sourceMappingURL=main.css.map */

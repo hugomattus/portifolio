@@ -15,6 +15,7 @@
     <link href="https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,300,400&display=swap" rel="stylesheet">
 
     <!-- ICONS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer">
 
     <title>Hugo Matos | Front-end Developer</title>
@@ -129,11 +130,11 @@
                 </ul>
             </div>
 
-            <a href="" class="text-center">Veja mais projetos </a>
         </div>
       </section>
        <!--END-PROJETOS-->
 
+        <!--S-SKILLS -->
       <section class="s-skills">
         <div class="container">
             <div class="text">
@@ -156,7 +157,7 @@
                <div class="accordion-content">
                 <header>
                     <span class="title">JavaScript</span>
-                    <i class="fa-solid fa-plus"></i>
+                    <i class="fa-solid fa-plus" style="width:10px;"></i>
                 </header>
 
                 <p class="description">
@@ -200,7 +201,83 @@
 
         </div>
       </section>
+      <!--END-SKILLS -->
+      
 
-      <script src="js/app.js"></script>
+      <footer>
+        <div class="container">
+            <div class="text">
+                <h3>Vamos trabalhar juntos?</h3>
+                <h1>Tem uma ideia e gostaria de tirar ela do papel? Fale comigo!</h1>
+            </div>
+
+        <form action="https://formsubmit.co/hugomattusdd@gmail.com" method="POST" class="form">
+
+
+            <div class="input-group">
+                <div class="input-box">
+                <label for="name">Como posso te chamar? *</label>
+                <input name="name" id="name" type="text" required >
+                </div>
+            </div>
+           
+            <div class="input-group">
+                <div class="input-box">
+                <label for="empresa">Qual nome da sua empresa? *</label>
+                <input id="empresa" name="empresa"  type="text" required >
+                </div>
+            </div>    
+            
+
+            <div class="input-group">
+                <div class="input-box">            
+                <label for="email">Qual seu melhor email? *</label>
+                <input id="email" name="email" type="text" required >
+                </div>
+            </div>
+            
+            <div class="input-group">
+                <div class="input-box">
+                <label for="numer">Qual é o seu WhatsApp? *</label>
+                <input id="number" name="tel" type="tel" required >
+                </div>
+            </div>
+
+
+            <div class="input-group">
+                <div class="input-box">
+                    <label for="numer">Fale mais sobre o projeto ou vaga de emprego:</label>
+                    <textarea name="message" type="text" id="message" cols="30" rows="10" required></textarea>
+                </div>   
+            </div>
+
+            <button type="submit" class="btn-primary" id="btn-js">Enviar mensagem</button>
+
+        </form>
+
+        <div class="text-footer">
+            <p>Copyright 2022.  Hugo Matos - Front-end Developer</p>
+            <ul>
+                <li>
+                    <a href="">E-mail</a>
+                </li>
+
+                <li>
+                    <a href="">WhatsApp</a>
+                </li>
+
+                <li>
+                    <a href="">LinkedIn</a>
+                </li>
+            </ul>
+        </div>
+        <div >
+            <span class="material-symbols-outlined" id="btnTop">expand_less</span>
+        </div>
+        </div>
+      </footer>
+
+    <script src="js/app.js"></script>
+
 </body>
 </html>

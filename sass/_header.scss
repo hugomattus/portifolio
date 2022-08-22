@@ -1,5 +1,4 @@
 header{
-    border-bottom: 1px solid rgba(160, 161, 161, 0.2);
     .container{
         height: 8.8rem;
         display: flex;
@@ -9,13 +8,16 @@ header{
     .logo{
         img{
             width: 150px;
-            height: 20px;
+            
         }
     }
     nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         ul{
             display: flex;
-            align-items: center;
+           list-style: none;
             li{
                 margin-left: 3.7rem;
                 a{

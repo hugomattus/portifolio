@@ -19,11 +19,13 @@ button{
 
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body{
     font-family: 'Montserrat', sans-serif;
     background-color: #07090E;
+   
 }
 
 
@@ -39,4 +41,7 @@ p{
 
 h3{
     font-family: 'Satoshi', sans-serif;
+    color: var(--color-primary);
+    font-size: 2.4rem;
+    margin-bottom: 5rem;
 }

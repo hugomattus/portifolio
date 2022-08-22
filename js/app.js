@@ -1,5 +1,7 @@
-const accordion = document.querySelectorAll('.accordion-content')
+const accordion = document.querySelectorAll('.accordion-content')// 
 
+
+// ACCORDION HABILIDADES
 accordion.forEach((item, index) => {
     let header = item.querySelector("header");
     header.addEventListener('click', () =>{
@@ -29,3 +31,36 @@ function removeOpen(index1){
         }
     })
 }
+
+
+// botão voltar ao topo
+
+const btnTop = document.getElementById('btnTop');  // button voltar ao topo
+
+btnTop.addEventListener("click", function(){
+    window.scrollTo(0,0)
+})
+
+ document.addEventListener('scroll', ocultar)
+
+function ocultar(){
+    if(window.scrollY > 400){
+       btnTop.style.display = "flex"
+    }else{
+        btnTop.style.display = "none"
+    }
+
+}
+
+ocultar()
+
+
+
+
+
+
+
+
+
+
+

@@ -27,6 +27,7 @@ button {
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -46,6 +47,9 @@ p {
 
 h3 {
   font-family: 'Satoshi', sans-serif;
+  color: var(--color-primary);
+  font-size: 2.4rem;
+  margin-bottom: 5rem;
 }
 
 .container {
@@ -100,10 +104,6 @@ h3 {
   font-weight: 500;
 }
 
-header {
-  border-bottom: 1px solid rgba(160, 161, 161, 0.2);
-}
-
 header .container {
   height: 8.8rem;
   display: -webkit-box;
@@ -119,16 +119,25 @@ header .container {
 
 header .logo img {
   width: 150px;
-  height: 20px;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 header nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  list-style: none;
 }
 
 header nav ul li {
@@ -196,7 +205,7 @@ header nav ul li a:hover {
 .s-depoimentos {
   background-color: rgba(19, 25, 37, 0.5);
   padding-top: 14.4rem;
-  padding-bottom: 22.4rem;
+  padding-bottom: 14.4rem;
 }
 
 .s-depoimentos .container {
@@ -358,6 +367,7 @@ header nav ul li a:hover {
 
 .s-skills {
   padding-top: 14.4rem;
+  padding-bottom: 14.4rem;
 }
 
 .s-skills .container {
@@ -373,7 +383,6 @@ header nav ul li a:hover {
 }
 
 .s-skills h3 {
-  font-size: 2.4rem;
   color: var(--color-primary);
   margin-bottom: 5rem;
 }
@@ -387,17 +396,12 @@ header nav ul li a:hover {
 .s-skills .accordion {
   width: 100%;
   max-width: 50.4rem;
-  margin: 0 15px;
-  padding: 15px;
-  border-radius: 8px;
-  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
 }
 
 .s-skills .accordion .accordion-content {
-  border-radius: 4px;
-  background-color: var(--color-primary);
-  border: 1px solid #07090E;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  background-color: rgba(19, 25, 37, 0.5);
   color: var(--color-text-white);
   font-size: 1.4rem;
   overflow: hidden;
@@ -418,7 +422,7 @@ header nav ul li a:hover {
       -ms-flex-pack: justify;
           justify-content: space-between;
   min-height: 50px;
-  padding: 0 15px;
+  padding: 24px 24px;
   cursor: pointer;
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
@@ -431,21 +435,168 @@ header nav ul li a:hover {
 .s-skills .accordion .accordion-content header .title {
   font-size: 1.7rem;
   font-weight: 500;
-  color: #07090E;
+  color: var(--color-text-white);
 }
 
 .s-skills .accordion .accordion-content header i {
   font-size: 1.7rem;
-  color: #07090E;
+  color: var(--color-primary);
 }
 
 .s-skills .accordion .accordion-content .description {
-  padding: 0 15px;
+  padding: 0px 24px;
   font-size: 1.3rem;
   font-weight: 400;
-  color: #07090E;
+  color: var(--color-text-white);
   height: 0;
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
+}
+
+footer {
+  padding-top: 14.2rem;
+  background-color: rgba(19, 25, 37, 0.5);
+}
+
+footer .text h1 {
+  width: 100%;
+  max-width: 50rem;
+  font-size: 3rem;
+  color: var(--color-text-white);
+  line-height: 140%;
+  margin-bottom: 7.2rem;
+}
+
+footer .form {
+  position: relative;
+  padding-bottom: 13rem;
+  width: 80%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (2fr)[2];
+      grid-template-columns: repeat(2, 2fr);
+  -ms-grid-rows: (2fr)[2];
+      grid-template-rows: repeat(2, 2fr);
+  grid-row-gap: 20px;
+}
+
+footer .form .input-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .form .input-group .input-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 2.8rem;
+}
+
+footer .form .input-group .input-box label {
+  color: var(--color-gray);
+  font-size: 1.8rem;
+  margin-bottom: 1.4rem;
+}
+
+footer .form .input-group .input-box input {
+  width: 41.6rem;
+  height: 5rem;
+  border-radius: 5px;
+  border: none;
+  padding: 8px 18px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  font-size: 1.8rem;
+  font-family: "Inter", sans-serif;
+}
+
+footer .form .input-group .input-box textarea {
+  width: 207%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  resize: none;
+  color: white;
+  font-size: 1.8rem;
+  font-family: "Inter", sans-serif;
+  border-radius: 5px;
+  padding: 16px 16px;
+}
+
+footer .btn-primary {
+  position: absolute;
+  bottom: 70px;
+  width: 30%;
+  color: black;
+  font-size: 1.8rem;
+  font-family: "Inter", sans-serif;
+}
+
+footer #btnTop {
+  cursor: pointer;
+  position: fixed;
+  bottom: 50px;
+  right: 80px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .text-footer {
+  padding: 28px 0px 28px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .text-footer p {
+  font-size: 1.5rem;
+  color: var(--color-gray);
+  font-family: "Open Sans", sans-serif;
+}
+
+footer .text-footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .text-footer ul li {
+  margin-left: 20px;
+}
+
+footer .text-footer ul li a {
+  color: var(--color-gray);
+  font-size: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+footer .text-footer ul li a:hover {
+  color: var(--color-primary);
 }
 /*# sourceMappingURL=main.css.map */

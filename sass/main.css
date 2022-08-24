@@ -294,8 +294,16 @@ h3 {
 }
 
 @media screen and (max-width: 520px) {
+  .s-projetos .container .text {
+    max-width: 37.7rem;
+    width: 100%;
+  }
   .s-projetos .container .projetos {
     max-width: 42.6rem;
+    width: 100%;
+  }
+  .s-skills .container .text {
+    max-width: 37.7rem;
     width: 100%;
   }
   .s-skills .container .accordion {
@@ -312,6 +320,7 @@ h3 {
             flex-direction: column;
   }
   footer .container .form {
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -320,16 +329,16 @@ h3 {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  footer .container .form .input-group .input-box input {
-    width: 120%;
+  footer .container .form .input-box {
+    max-width: 43.6rem;
   }
-  footer .container .form .input-group .input-box textarea {
+  footer .container .form .input-box textarea {
     width: 115%;
     height: 20rem;
     margin-bottom: 5px;
   }
   footer .container .form button {
-    width: 70%;
+    width: 50%;
   }
 }
 

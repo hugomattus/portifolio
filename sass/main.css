@@ -52,6 +52,287 @@ h3 {
   margin-bottom: 5rem;
 }
 
+@media screen and (max-width: 900px) {
+  .s-depoimentos .container {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .s-depoimentos .container .left-area {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 42.6rem;
+    margin-bottom: 5rem;
+  }
+  .s-projetos .container {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .s-projetos .container .text {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 42.6rem;
+  }
+  .s-projetos .container .projetos ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .s-skills .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .s-skills .container .text {
+    max-width: 42.6rem;
+    margin-bottom: 5rem;
+  }
+  footer .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .container .text {
+    width: 42.6rem;
+  }
+  footer .container .form {
+    width: 65%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .container .form .input-box textarea {
+    width: 100%;
+  }
+  footer .container button {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  header nav #btn-mobile {
+    display: block;
+    background-color: white;
+  }
+  header nav #menu-mobile {
+    display: none;
+  }
+  header nav #menu-mobile .active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .s-hero {
+    padding-bottom: 13.7rem;
+  }
+  .s-hero .container .text h1 {
+    font-size: 3.7rem;
+  }
+  .s-hero .container .text p {
+    font-size: 18px;
+  }
+  .s-hero .container .btns .btn-primary {
+    padding: 10px 31px;
+  }
+  .s-hero .container .btns .btn-secondary {
+    margin-left: 2rem;
+  }
+  .s-depoimentos {
+    padding-top: 13.7rem;
+    padding-bottom: 13.7rem;
+  }
+  .s-depoimentos .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .s-depoimentos .container .left-area h1 {
+    font-size: 2.8rem;
+    width: 39.8rem;
+  }
+  .s-depoimentos .container .left-area p {
+    font-size: 2.2rem;
+    width: 33.2rem;
+    margin-bottom: 5rem;
+  }
+  .s-projetos {
+    padding-top: 13.7rem;
+    padding-bottom: 13.7rem;
+  }
+  .s-projetos .container .text h1 {
+    font-size: 2.8rem;
+    width: 42.8rem;
+    margin-bottom: 5rem;
+  }
+  .s-projetos .container .projetos ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .s-projetos .container .projetos ul li .card-projects {
+    height: 28.8rem;
+  }
+  .s-projetos .container .projetos ul li img {
+    width: 100%;
+    height: 28.8rem;
+  }
+  .s-skills {
+    padding-top: 13.7rem;
+    padding-bottom: 13.7rem;
+  }
+  .s-skills .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .s-skills .container .text h1 {
+    font-size: 2.8rem;
+    width: 38.8rem;
+    margin-bottom: 5rem;
+  }
+  footer .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .container .form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .container .form .input-group .input-box textarea {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  footer .container .form button {
+    width: 40%;
+  }
+  footer .container .text-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .container .text-footer p {
+    margin-bottom: 10px;
+  }
+  footer .container #btnTop {
+    bottom: 179px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .s-projetos .container .projetos {
+    max-width: 42.6rem;
+    width: 100%;
+  }
+  .s-skills .container .accordion {
+    width: 100%;
+    max-width: 42.6rem;
+  }
+  footer .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .container .form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .container .form .input-group .input-box input {
+    width: 120%;
+  }
+  footer .container .form .input-group .input-box textarea {
+    width: 115%;
+    height: 20rem;
+    margin-bottom: 5px;
+  }
+  footer .container .form button {
+    width: 70%;
+  }
+}
+
 .container {
   width: 100%;
   margin: 0 auto;
@@ -125,6 +406,8 @@ header nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -133,18 +416,22 @@ header nav {
           align-items: center;
 }
 
-header nav ul {
+header nav #btn-mobile {
+  display: none;
+}
+
+header ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   list-style: none;
 }
 
-header nav ul li {
+header ul li {
   margin-left: 3.7rem;
 }
 
-header nav ul li a {
+header ul li a {
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   letter-spacing: 1px;
@@ -154,8 +441,12 @@ header nav ul li a {
   transition: all .3s;
 }
 
-header nav ul li a:hover {
+header ul li a:hover {
   color: var(--color-primary);
+}
+
+header #btn-mobile {
+  display: none;
 }
 
 .s-hero {
@@ -327,6 +618,7 @@ header nav ul li a:hover {
 }
 
 .s-projetos .projetos ul li .card-projects img {
+  width: 100%;
   border-radius: 8px;
   -webkit-transition: all 2s;
   transition: all 2s;
@@ -374,9 +666,6 @@ header nav ul li a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;

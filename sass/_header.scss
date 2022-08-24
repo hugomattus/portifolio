@@ -11,10 +11,15 @@ header{
             
         }
     }
-    nav {
+    nav{
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
+        #btn-mobile{
+            display: none;
+        }
+        }
         ul{
             display: flex;
            list-style: none;
@@ -32,6 +37,8 @@ header{
                     }
                 }
             }
+        }  
+        #btn-mobile{
+            display: none;
         }
     }
-}

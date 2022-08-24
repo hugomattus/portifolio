@@ -1,0 +1,254 @@
+@media screen and (max-width: 1200px){
+    
+}
+
+@media screen and (max-width: 900px){
+    .s-depoimentos{
+        .container{
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            .left-area{
+                align-items: center;
+                max-width: 42.6rem;
+                margin-bottom: 5rem;
+            }
+        }
+    }   
+
+    .s-projetos{
+        .container{
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            .text{
+               flex-direction: column;
+               max-width: 42.6rem;
+            }
+            .projetos{
+                ul{
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+
+    .s-skills{
+        .container{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            .text{
+                max-width: 42.6rem;
+                margin-bottom: 5rem;
+            }
+        }
+    }
+    footer{
+        .container{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            .text{
+                width: 42.6rem;
+            }
+            .form{
+                width: 65%;
+                display: flex;
+                flex-direction: column;
+                align-items: center; 
+                    .input-box{
+                        textarea{
+                            width: 100%;
+                        }
+                    }
+                }
+                button{
+                    width: 60%;
+                }
+            }
+
+        }
+    }
+
+
+@media screen and (max-width: 767px){
+    header{
+        nav{
+            #btn-mobile{
+                display: block;
+                background-color: white;
+            }
+            #menu-mobile{
+                display: none;
+                .active{
+                    display: flex;
+                }
+            }
+        }
+    }
+   .s-hero{
+    padding-bottom: 13.7rem;
+    .container{
+        .text{
+            h1{
+                font-size: 3.7rem;
+            }
+            p{
+                font-size: 18px;
+            }
+        }
+        .btns{
+            .btn-primary{
+                padding: 10px 31px;
+            }
+            .btn-secondary{
+                margin-left: 2rem;
+            }
+        }
+    }
+   }
+   .s-depoimentos{
+    padding-top: 13.7rem;
+    padding-bottom: 13.7rem;
+    .container{
+        display: flex;
+        flex-direction: column;
+        .left-area{
+            h1{
+                font-size: 2.8rem;
+                width: 39.8rem;
+            }
+            p{
+                font-size: 2.2rem;
+                width: 33.2rem;
+                margin-bottom: 5rem;
+            }
+        }
+    }
+   }
+   .s-projetos{
+    padding-top: 13.7rem;
+    padding-bottom: 13.7rem;
+    .container{
+        .text{
+            h1{
+                font-size: 2.8rem;
+                width: 42.8rem;
+                margin-bottom: 5rem;
+            }
+        }
+        .projetos{
+            ul{ 
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                li{
+                    .card-projects{
+                        height: 28.8rem;
+                    }
+                    img{
+                        width: 100%;
+                        height: 28.8rem;
+                    }
+                }
+            }
+        }
+    }
+   }
+   .s-skills{
+    padding-top: 13.7rem;
+    padding-bottom: 13.7rem;
+    .container{
+        display: flex;
+        flex-direction: column;
+        .text{
+            h1{
+                font-size: 2.8rem;
+                width: 38.8rem;
+                margin-bottom: 5rem;
+            }
+        }
+    }
+   }
+   footer{
+    .container{
+        display: flex;
+        flex-direction: column;
+        .form{
+            display: flex;
+            flex-direction: column;
+           .input-group{
+            .input-box{
+                textarea{
+                    width: 100%;
+                    margin-bottom: 5px;
+                }
+            }
+           }
+           button{
+            width: 40%;
+           }
+        }
+        .text-footer{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            p{
+                margin-bottom: 10px;
+            }
+        }
+
+        #btnTop{
+            bottom: 179px;
+        }
+   }
+}
+}
+
+@media screen and (max-width: 520px){
+    .s-projetos{
+        .container{
+            .projetos{
+                max-width: 42.6rem;
+                width: 100%;
+            }
+        }
+    }
+
+    .s-skills{
+        .container{
+            .accordion{
+                width: 100%;
+             max-width: 42.6rem;
+            }
+        }
+    }
+    footer{
+        .container{
+            display: flex;
+            flex-direction: column;
+            .form{
+                display: flex;
+                flex-direction: column;
+               .input-group{
+                .input-box{
+                    input{
+                        width: 120%;
+                    }
+                    textarea{
+                        width: 115%;
+                        height: 20rem;
+                        margin-bottom: 5px;
+                    }
+                }
+               }
+               button{
+                width: 70%;
+               }
+            }
+        }
+    }
+
+    }

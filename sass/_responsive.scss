@@ -18,6 +18,7 @@
 
     .s-projetos{
         .container{
+            width: 100%;
             align-items: center;
             display: flex;
             flex-direction: column;
@@ -36,6 +37,7 @@
 
     .s-skills{
         .container{
+            width: 100%;
             display: flex;
             align-items: center;
             flex-direction: column;
@@ -47,6 +49,7 @@
     }
     footer{
         .container{
+            width: 100%;
             display: flex;
             align-items: center;
             flex-direction: column;
@@ -58,11 +61,13 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center; 
+                .input-group{
                     .input-box{
                         textarea{
                             width: 100%;
                         }
                     }
+                }
                 }
                 button{
                     width: 60%;
@@ -174,6 +179,7 @@
    }
    footer{
     .container{
+        width: 100%;
         display: flex;
         flex-direction: column;
         .form{
@@ -188,7 +194,7 @@
             }
            }
            button{
-            width: 40%;
+            width: 60%;
            }
         }
         .text-footer{
@@ -201,7 +207,7 @@
         }
 
         #btnTop{
-            bottom: 179px;
+            bottom: 140px;
         }
    }
 }
@@ -237,20 +243,29 @@
         .container{
             display: flex;
             flex-direction: column;
+            .text{
+                width: 100%;
+                max-width: 37.7rem;
+            }
             .form{
                 width: 100%;
                 display: flex;
                 flex-direction: column;
-                .input-box{
-                    max-width: 43.6rem;
-                    textarea{
-                        width: 115%;
-                        height: 20rem;
-                        margin-bottom: 5px;
+
+                .input-group{
+                    .input-box{
+                        input{
+                            max-width: 37.7rem;
+                        }
+                        textarea{
+                            max-width: 37.7rem;
+                            height: 20rem;
+                            margin-bottom: 5px;
+                        }
                     }
                 }
                 button{
-                    width: 50%;
+                    width: 60%;
                 }
                }
             }

@@ -1,0 +1,113 @@
+footer{
+    padding-top: 14.2rem;
+    background-color: rgba(19, 25, 37, 0.5);
+    .text{
+
+        h1{
+            width: 100%;
+            max-width: 50rem;
+            font-size: 3rem;
+            color: var(--color-text-white);
+            line-height: 140%;
+            margin-bottom: 7.2rem;
+        }
+    }
+   
+    .form{
+        position: relative;
+        padding-bottom: 13rem;
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        grid-template-rows: repeat(2, 2fr);
+        grid-row-gap: 20px;
+        .input-group{
+            display: flex;
+            justify-content: space-between;
+            .input-box{
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 2.8rem;
+                label{
+                    color: var(--color-gray);
+                    font-size: 1.8rem;
+                    margin-bottom: 1.4rem;
+                }
+                input{
+                    width: 41.6rem;
+                    height: 5rem;
+                    border-radius: 5px;
+                    border: none;
+                    padding: 8px 18px;
+                    background-color: rgba(255, 255, 255, 0.1);
+                    color: rgba(255, 255, 255, 16%);
+                    font-size: 1.8rem;
+                    font-family: "Inter", sans-serif;
+                }
+                textarea{
+                    width: 207%;
+                    background-color: rgba(255, 255, 255, 0.1);
+                    border: none;
+                    resize: none;
+                    color: rgba(255, 255, 255, 16%);
+                    font-size: 1.8rem;
+                    font-family: "Inter", sans-serif;
+                    border-radius: 5px;
+                    padding: 16px 16px;
+                }
+            }
+        }
+    }
+    .btn-primary{
+        position: absolute;
+        bottom: 70px;
+        width: 30%;
+        color: black;
+        font-size: 1.8rem;
+        font-family: 'Satoshi', sans-serif;
+        font-weight: bold;
+    }
+
+    #btnTop{
+        cursor: pointer;
+        position: fixed;
+        bottom: 50px;
+        right: 80px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: var(--color-primary);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text-footer{
+        padding: 28px 0px 28px 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        p{
+            font-size: 1.5rem;
+            color: var(--color-gray);
+            font-family: "Open Sans", sans-serif;
+        }
+
+        ul{
+            display: flex;
+            li{
+                margin-left: 20px;
+                a{
+                    color: var(--color-gray);
+                    font-size: 1.5rem;
+                    font-family: "Open Sans", sans-serif;
+                    transition: all .3s ease;
+                    &:hover{
+                        color: var(--color-primary);
+                    }
+                }
+            }
+        }
+    }
+
+}

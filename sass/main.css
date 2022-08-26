@@ -815,7 +815,6 @@ footer .text-footer ul li a:hover {
   width: 100%;
   max-width: 54.4rem;
   height: 40.8rem;
-  background-color: white;
   border-radius: 8px;
 }
 
@@ -827,8 +826,8 @@ footer .text-footer ul li a:hover {
 }
 
 .s-projetos .projetos ul li .card-projects img:hover {
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .s-projetos .text-center {

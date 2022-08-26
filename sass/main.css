@@ -28,11 +28,13 @@ button {
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #07090E;
+  overflow-x: hidden;
 }
 
 a {
@@ -204,14 +206,14 @@ h3 {
   }
   .s-depoimentos .container .left-area h1 {
     font-size: 2.8rem;
-    width: 37.7rem;
+    width: 34.7rem;
     text-align: center;
     margin: 0 auto;
     margin-bottom: 5rem;
   }
   .s-depoimentos .container .left-area p {
     font-size: 2.2rem;
-    width: 28.2rem;
+    width: 30.2rem;
     margin: 0 0 0 5rem;
     margin-bottom: 5rem;
     text-align: center;

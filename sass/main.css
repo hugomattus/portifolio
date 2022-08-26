@@ -195,20 +195,23 @@ h3 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .s-depoimentos .container .left-area h3 {
     text-align: center;
   }
   .s-depoimentos .container .left-area h1 {
     font-size: 2.8rem;
-    width: 39.8rem;
+    width: 37.7rem;
     text-align: center;
     margin: 0 auto;
     margin-bottom: 5rem;
   }
   .s-depoimentos .container .left-area p {
     font-size: 2.2rem;
-    width: 33.2rem;
+    width: 28.2rem;
     margin: 0 0 0 5rem;
     margin-bottom: 5rem;
     text-align: center;
@@ -249,6 +252,7 @@ h3 {
     height: 28.8rem;
   }
   .s-skills {
+    width: 100%;
     padding-top: 13.7rem;
     padding-bottom: 13.7rem;
   }
@@ -302,7 +306,7 @@ h3 {
     margin-bottom: 5px;
   }
   footer .container .form button {
-    width: 60%;
+    width: 50%;
   }
   footer .container .text-footer {
     display: -webkit-box;
@@ -320,22 +324,17 @@ h3 {
     margin-bottom: 10px;
   }
   footer .container #btnTop {
-    bottom: 140px;
+    bottom: 120px;
   }
 }
 
 @media screen and (max-width: 520px) {
-  .s-projetos .container .text {
-    max-width: 37.7rem;
-    width: 100%;
-  }
   .s-projetos .container .projetos {
     max-width: 42.6rem;
     width: 100%;
   }
   .s-skills .container .text {
-    max-width: 37.7rem;
-    width: 100%;
+    padding: 15px 0;
   }
   .s-skills .container .accordion {
     width: 100%;
@@ -368,11 +367,15 @@ h3 {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  footer .container .form .input-group .input-box input {
+  footer .container .form .input-group {
     max-width: 37.7rem;
   }
+  footer .container .form .input-group .input-box input {
+    max-width: 30.7rem;
+  }
   footer .container .form .input-group .input-box textarea {
-    max-width: 37.7rem;
+    width: 100%;
+    max-width: 30.7rem;
     height: 20rem;
     margin-bottom: 5px;
   }
@@ -822,8 +825,8 @@ footer .text-footer ul li a:hover {
 }
 
 .s-projetos .projetos ul li .card-projects img:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 .s-projetos .text-center {

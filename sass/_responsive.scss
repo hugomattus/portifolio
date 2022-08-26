@@ -120,20 +120,21 @@
     .container{
         display: flex;
         flex-direction: column;
+        align-items: center;
         .left-area{
             h3{
                 text-align: center;
             }
             h1{
                 font-size: 2.8rem;
-                width: 39.8rem;
+                width: 37.7rem;
                 text-align: center;
                 margin: 0 auto;
                 margin-bottom: 5rem;
             }
             p{
                 font-size: 2.2rem;
-                width: 33.2rem;
+                width: 28.2rem;
                 margin: 0 0 0 5rem;
                 margin-bottom: 5rem;
                 text-align: center;
@@ -178,6 +179,7 @@
     }
    }
    .s-skills{
+    width: 100%;
     padding-top: 13.7rem;
     padding-bottom: 13.7rem;
     .container{
@@ -221,7 +223,7 @@
             }
            }
            button{
-            width: 60%;
+            width: 50%;
            }
         }
         .text-footer{
@@ -234,31 +236,27 @@
         }
 
         #btnTop{
-            bottom: 140px;
+            bottom: 120px;
         }
    }
 }
 }
 
 @media screen and (max-width: 520px){
+
     .s-projetos{
         .container{
-            .text{
-                max-width: 37.7rem;
-                width: 100%;
-            }
             .projetos{
                 max-width: 42.6rem;
                 width: 100%;
+              }
             }
         }
-    }
 
     .s-skills{
         .container{
             .text{
-                max-width: 37.7rem;
-                width: 100%;
+                padding: 15px 0;
             }
             .accordion{
                 width: 100%;
@@ -284,12 +282,14 @@
                 flex-direction: column;
 
                 .input-group{
+                    max-width: 37.7rem;
                     .input-box{
                         input{
-                            max-width: 37.7rem;
+                            max-width: 30.7rem;
                         }
                         textarea{
-                            max-width: 37.7rem;
+                            width: 100%;
+                            max-width: 30.7rem;
                             height: 20rem;
                             margin-bottom: 5px;
                         }
@@ -302,3 +302,4 @@
             }
         }
     }
+

@@ -57,15 +57,19 @@ ocultar()
 
 // MENU MOBILE
 
-function menuOpen(){
-    let menuMobile = document.querySelector('.menu-mobile');
-    if(menuMobile.classList.contains('open')){
-        menuMobile.classList.remove('open');
-    }else{
-        menuMobile.classList.add('open')
-    }
-}
 
+
+// ANCORA
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
 
 
 

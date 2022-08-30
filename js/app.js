@@ -57,15 +57,6 @@ ocultar()
 
 // MENU MOBILE
 
-const btnMobile = document.getElementById('btn-mobile');
-
-function toggleMenu(){
-    const nav = document.getElementById('menu-mobile');
-    nav.classList.toggle('active')
-}
-
-btnMobile.addEventListener('click', toggleMenu)
-
 
 
 

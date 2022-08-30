@@ -158,9 +158,6 @@ h3 {
 }
 
 @media screen and (max-width: 767px) {
-  header .container .nav-bar {
-    padding: 1.5rem 4rem;
-  }
   header .container .nav-bar .nav-item {
     display: none;
   }

@@ -165,6 +165,39 @@ h3 {
     display: block;
     cursor: pointer;
   }
+  .menu-mobile {
+    display: block;
+    width: 100%;
+    height: calc(100vh - 70px);
+    padding: 1.7rem;
+    z-index: 222;
+    background-color: #1A2232;
+  }
+  .menu-mobile ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 10rem;
+  }
+  .menu-mobile .nav-item {
+    margin-bottom: 5rem;
+  }
+  .menu-mobile .nav-item a {
+    font-size: 2rem;
+  }
+  .menu-mobile.active {
+    display: block;
+  }
   .s-hero {
     padding-bottom: 13.7rem;
   }

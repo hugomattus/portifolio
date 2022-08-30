@@ -93,7 +93,28 @@
          }
     }
     .menu-mobile{
-        
+        display: block;
+        width: 100%;
+        height: calc(100vh - 70px);
+        padding: 1.7rem;
+        z-index: 222;
+        background-color: #1A2232;
+        ul{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding-top: 10rem;
+        }
+        .nav-item{
+            margin-bottom: 5rem;
+            a{
+                font-size: 2rem;
+            }
+        }
+        &.active{
+            display: block;
+        }
     }
    .s-hero{
     padding-bottom: 13.7rem;

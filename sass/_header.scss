@@ -5,40 +5,58 @@ header{
         align-items: center;
         justify-content: space-between;
     }
-    .logo{
-        img{
-            width: 150px;
-            
-        }
-    }
-    nav{
+    .nav-bar{
+        width: 100%;
         display: flex;
-        flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
-        #btn-mobile{
-            display: none;
+        .logo{
+            img{
+                width: 150px;
+                
+            }
         }
-        }
-        ul{
-            display: flex;
-           list-style: none;
-            li{
-                margin-left: 3.7rem;
-                a{
-                    font-family: 'Open Sans', sans-serif;
-                    font-weight: bold;
-                    letter-spacing: 1px;
-                    font-size: 15px;
-                    color: var(--color-gray);
-                    transition: all .3s;
-                    &:hover{
-                        color: var(--color-primary);
+        .nav-list{
+            ul{
+                display: flex;
+                align-items: center;
+                .nav-item{
+                    margin-left: 3.7rem;
+                    a{
+                        font-family: 'Open Sans', sans-serif;
+                        font-weight: bold;
+                        letter-spacing: 1px;
+                        font-size: 15px;
+                        color: var(--color-gray);
+                        transition: all .3s;
+                        &:hover{
+                            color: var(--color-primary);
+                        }
                     }
                 }
-            }
-        }  
+            } 
+        }
         #btn-mobile{
             display: none;
         }
+        }
+}
+
+.menu-mobile{
+    display: none;
+}
+
+.nav-item{
+   a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 15px;
+    color: var(--color-gray);
+    transition: all .3s;
+    &:hover{
+        color: var(--color-primary);
     }
+   }
+}
+

@@ -80,18 +80,36 @@
 
 @media screen and (max-width: 767px){
     header{
-        nav{
-            #btn-mobile{
-                display: block;
-                background-color: white;
+         .container{
+            .nav-bar{
+                padding: 1.5rem 4rem;
+                .nav-item{
+                    display: none;
+                   }
+                #btn-mobile{
+                    display: block;
+                    cursor: pointer;
+               }
             }
-            #menu-mobile{
-                display: none;
-                .active{
-                    display: flex;
-                }
-            }
+         }
+    }
+    .menu-mobile{
+       ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+       
+        .nav-item{
+            display: block;
+            padding-top: 1.2rem;
+            font-size: 2.5rem;
         }
+       }
+    }
+    .open{
+        display: block !important;
+    }
     }
    .s-hero{
     padding-bottom: 13.7rem;
@@ -240,7 +258,7 @@
         }
    }
 }
-}
+
 
 @media screen and (max-width: 520px){
 

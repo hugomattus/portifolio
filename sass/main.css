@@ -162,16 +162,20 @@ h3 {
     display: none;
   }
   header .container .nav-bar #btn-mobile {
+    color: white;
     display: block;
-    cursor: pointer;
   }
   .menu-mobile {
     display: block;
+    position: absolute;
+    top: 70;
+    right: 0px;
     width: 100%;
-    height: calc(100vh - 70px);
+    height: 0;
     padding: 1.7rem;
     z-index: 222;
     background-color: #1A2232;
+    height: calc(100vh - 70px);
   }
   .menu-mobile ul {
     display: -webkit-box;
